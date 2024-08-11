@@ -67,7 +67,7 @@
 
 
 
-* `git clone https://github.com/h4ck3r0/Termux-os`
+* `git clone https://github.com/Your-sahil/Termux-os`
 
 * `cd Termux-os`
 
