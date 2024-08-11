@@ -12,23 +12,23 @@ echo -e " \e[91m                                                   ____      ___
 echo -e " \e[91m                                                  / __ \    / ____\ " 
 echo -e " \e[96m                                                 / /  \ \  ( (___   " 
 echo -e " \e[96m                                                ( ()  () )  \___ \  " 
-echo -e " \e[1;91m FACEBOOK\e[96m / \e[100;97SPEED FUCKER FYTER MAFIA\e[0;31m                  ( ()  () )      ) )" 
-echo -e " \e[1;91m Github\e[96m /\e[1;93m MAFIA XD                               \ \__/ /   ___/ /"  
-echo -e " \e[1;91m INSTAGRAM\e[1;96m /\e[1;92m iinoxent_user_0                              \____/   /____/"    
+echo -e " \e[1;91m Youtube\e[96m / \e[100;97myoutube.com/h4ck3r0\e[0;31m                  ( ()  () )      ) )" 
+echo -e " \e[1;91m Github\e[96m /\e[1;93m H4Ck3R0                                \ \__/ /   ___/ /"  
+echo -e " \e[1;91m Telegram\e[1;96m /\e[1;92m H4Ck3R_0                              \____/   /____/"    
 echo ""
 
 banner ( ) {
                   
                   
                   printf ""
-                  echo -e "\e[1;31m  [\e[32m√\e[31m] \e[1;91m by \e[1;36mSahil mafia \e[93m/ \e[100;92myoutube.com/M9FI90\e[0m"
+                  echo -e "\e[1;31m  [\e[32m√\e[31m] \e[1;91m by \e[1;36mRaj Aryan \e[93m/ \e[100;92myoutube.com/h4ck3r0\e[0m"
                   }
 
                   wr  ( )  {
                                printf "\033[1;91m Invalid input!!!\n"
                                selection
                                }
-                               1line
+                               1line() {
                                                          apt update && apt upgrade
                                                          pkg install zsh -y
                                                          pkg install git -y
@@ -52,7 +52,7 @@ banner ( ) {
                                                          cp -r .termux.properties ~/.termux/termux.properties
                                                          clear
                                                          cd ~/Termux-js ; bash js.sh
-                                                         termux-open-url M9FI9.me
+                                                         termux-open-url h4ck3r.me
                                                          
                                                          }
                                                          2line() {
@@ -98,7 +98,7 @@ banner ( ) {
     
                                  selection () {
                                             cd ~/Termux-js
-                                            echo -e -n "\e[1;96m Chojse\e[1;96m Option : \e[0m"
+                                            echo -e -n "\e[1;96m Choose\e[1;96m Option : \e[0m"
                                             read a
                                             case $a in
                                             1) 1line ;;
@@ -122,7 +122,7 @@ banner ( ) {
                                   printf "\033[1;91m[\033[0m4\033[1;91m]\033[1;92m Bash Shell\n"
                                   printf "\033[1;91m[\033[0m5\033[1;91m]\033[1;92m Zsh Banner\n"
                                   printf "\033[1;91m[\033[0m6\033[1;91m]\033[1;92m Zsh Theme\n"
-                                  printf "\033[1;91m[\033[0m7\033[1;91m]\033[1;92m Highlight / Autjsuggest\n"
+                                  printf "\033[1;91m[\033[0m7\033[1;91m]\033[1;92m Highlight / AutoSuggest\n"
                                   printf "\033[1;91m[\033[0m8\033[1;91m]\033[1;92m Update\n"
                                   printf "\033[1;91m[\033[0m9\033[1;91m]\033[1;92m Exit\n\n\n"
                                   
