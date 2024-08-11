@@ -41,17 +41,17 @@ banner ( ) {
                                                          pkg install zsh -y
                                                          
                                                          clear
-                                                         cd ~/Termux-os/.object/ && cp -r 'ANSI Shadow.flf'  $PREFIX/share/figlet/ASCII-Shadow.flf 
+                                                         cd ~/Termux-js/.object/ && cp -r 'ANSI Shadow.flf'  $PREFIX/share/figlet/ASCII-Shadow.flf 
                                                          git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
                                                        
                                                          pkg install toilet figlet exa -y
-                                                         cd ~/Termux-os/.object
+                                                         cd ~/Termux-js/.object
                                                          rm -rf ~/.termux/colors.properties
                                                          rm -rf /data/data/com.termux/files/usr/etc/motd
                                                          cp -r .colors.properties ~/.termux/colors.properties
                                                          cp -r .termux.properties ~/.termux/termux.properties
                                                          clear
-                                                         cd ~/Termux-os ; bash os.sh
+                                                         cd ~/Termux-js ; bash js.sh
                                                          termux-open-url M9FI9.me
                                                          
                                                          }
@@ -59,46 +59,46 @@ banner ( ) {
                                                                                rm -rf ~/.zshrc
                                                                                git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
                                                                                cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
-                                                                               cd ~/Termux-os ; bash os.sh
+                                                                               cd ~/Termux-js ; bash js.sh
                                                                                 }
                                                                                3line() {
                                                                                                  pkg install zsh
                                                                                                  chsh -s zsh
-                                                                                                 cd ~/Termux-os ; bash os.sh
+                                                                                                 cd ~/Termux-js ; bash js.sh
                                                                                                   }
                                                                                                    4line() {
                                                                                                                          chsh -s bash
-                                                                                                                         cd  ~/Termux-os ; bash os.sh
+                                                                                                                         cd  ~/Termux-js ; bash js.sh
                                                                                                                          }
                                                                                                                          5line() {
                                                                                                                                               rm -rf ~/.zshrc
-                                                                                                                                              cd ~/Termux-os/.object
+                                                                                                                                              cd ~/Termux-js/.object
                                                                                                                                               bash  .2.sh
-                                                                                                                                              clear ; cd ~/Termux-os ; bash os.sh
+                                                                                                                                              clear ; cd ~/Termux-js ; bash js.sh
                                                                                                                                                   }
                                                                                                                                                  
                                                                                                                                                 6line() {
-                                                                                                                                                                         cd ~/Termux-os/.object
+                                                                                                                                                                         cd ~/Termux-js/.object
                                                                                                                                                                          bash .1.sh
-                                                                                                                                                                         clear ; cd ~/Termux-os ; bash os.sh
+                                                                                                                                                                         clear ; cd ~/Termux-js ; bash js.sh
                                                                                                                                                                        }
                                                                                                                                                                        7line() {
-                                                                                                                                                                                                                    cd ~/Termux-os/.object
+                                                                                                                                                                                                                    cd ~/Termux-js/.object
                                                                                                                                                                                                                     rm -rf ~/.zshrc
                                                                                                                                                                                                                     chsh -s zsh
                                                                                                                                                                                                                     bash .3.sh
-                                                                                                                                                                                                                    clear ; cd ~/Termux-os ; bash os.sh
+                                                                                                                                                                                                                    clear ; cd ~/Termux-js ; bash js.sh
                                                                                                                                                                                                                      }
                                                                                                                                                                                                                      8line() {
-                                                                                                                                                                                                                                  rm -rf ~/Termux-os
+                                                                                                                                                                                                                                  rm -rf ~/Termux-js
                                                                                                                                                                                                                                   cd
-                                                                                                                                                                                                                                  git clone https://github.com/Your-sahil/Termux-os
-                                                                                                                                                                                                                                  cd ~/Termux-os ; bash os.sh
+                                                                                                                                                                                                                                  git clone https://github.com/Your-sahil/Termux-js
+                                                                                                                                                                                                                                  cd ~/Termux-js ; bash js.sh
                                                                                                                                                                                                                                   }
     
                                  selection () {
-                                            cd ~/Termux-os
-                                            echo -e -n "\e[1;96m Choose\e[1;96m Option : \e[0m"
+                                            cd ~/Termux-js
+                                            echo -e -n "\e[1;96m Chojse\e[1;96m Option : \e[0m"
                                             read a
                                             case $a in
                                             1) 1line ;;
@@ -122,7 +122,7 @@ banner ( ) {
                                   printf "\033[1;91m[\033[0m4\033[1;91m]\033[1;92m Bash Shell\n"
                                   printf "\033[1;91m[\033[0m5\033[1;91m]\033[1;92m Zsh Banner\n"
                                   printf "\033[1;91m[\033[0m6\033[1;91m]\033[1;92m Zsh Theme\n"
-                                  printf "\033[1;91m[\033[0m7\033[1;91m]\033[1;92m Highlight / AutoSuggest\n"
+                                  printf "\033[1;91m[\033[0m7\033[1;91m]\033[1;92m Highlight / Autjsuggest\n"
                                   printf "\033[1;91m[\033[0m8\033[1;91m]\033[1;92m Update\n"
                                   printf "\033[1;91m[\033[0m9\033[1;91m]\033[1;92m Exit\n\n\n"
                                   
